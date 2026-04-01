@@ -1,0 +1,32 @@
+# ── Backend ──────────────────────────────────────────────────
+backend/target/
+backend/*.log
+backend/**/*.class
+backend/**/*.jar
+
+# ── Frontend ─────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Misc ──────────────────────────────────────────────────────
+*.log
+*.tmp
+*.swp
